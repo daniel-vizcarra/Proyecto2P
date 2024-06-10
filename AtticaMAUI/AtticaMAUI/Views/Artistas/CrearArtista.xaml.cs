@@ -1,38 +1,17 @@
+using System;
 using AtticaMAUI.Models;
 using Microsoft.Maui.Controls;
-using System;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace AtticaMAUI.Views.Artistas
 {
     public partial class CrearArtista : ContentPage
     {
         private readonly ArtistaService _artistaService;
-        private ImageSource _imagenSeleccionada;
 
         public CrearArtista()
         {
             InitializeComponent();
-            _artistaService = new ArtistaService();
-        }
-
-        private async void OnSeleccionarImagenClicked(object sender, EventArgs e)
-        {
-            var result = await FilePicker.PickAsync(new PickOptions
-            {
-                FileTypes = FilePickerFileType.Images,
-                PickerTitle = "Seleccionar imagen del artista"
-            });
-
-            if (result != null)
-            {
-                using (var stream = await result.OpenReadAsync())
-                {
-                    _imagenSeleccionada = ImageSource.FromStream(() => stream);
-                    artistaImage.Source = _imagenSeleccionada;
-                }
-            }
+            _artistaService = ArtistaService.Instance; // Usamos la instancia singleton
         }
 
         private async void OnGuardarClicked(object sender, EventArgs e)
@@ -41,10 +20,18 @@ namespace AtticaMAUI.Views.Artistas
             {
                 Nombre = nombreEntry.Text,
                 Descripcion = descripcionEditor.Text,
-                Imagen = _imagenSeleccionada
+                Imagen = null, // Aquí puedes agregar lógica para convertir la URL a byte[]
+                ObrasDeArte = new List<ObraDeArte>()
             };
 
             _artistaService.Crear(nuevoArtista);
+
+            await DisplayAlert("Éxito", "Artista creado exitosamente", "OK");
+            await Navigation.PopAsync();
+        }
+
+        private async void OnCancelarClicked(object sender, EventArgs e)
+        {
             await Navigation.PopAsync();
         }
     }

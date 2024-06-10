@@ -1,3 +1,4 @@
+using System.Linq;
 using AtticaMAUI.Models;
 using AtticaMAUI.Views.Artistas;
 using Microsoft.Maui.Controls;
@@ -11,19 +12,19 @@ namespace AtticaMAUI.Views
         public ArtistasPage()
         {
             InitializeComponent();
-            _artistaService = new ArtistaService();
+            _artistaService = ArtistaService.Instance; // Usamos la instancia singleton
             CargarArtistas();
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            CargarArtistas(); // Volver a cargar la lista de artistas cuando la página aparezca
+            CargarArtistas(); // Recargamos los artistas cada vez que la página aparece
         }
 
         private void CargarArtistas()
         {
-            artistasListView.ItemsSource = _artistaService.ObtenerTodos();
+            artistasListView.ItemsSource = _artistaService.ObtenerTodos().ToList();
         }
 
         private async void OnCrearNuevoArtistaClicked(object sender, EventArgs e)

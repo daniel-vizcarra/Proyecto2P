@@ -1,16 +1,19 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace AtticaMAUI.Models
 {
     public class ArtistaService
     {
-        private ObservableCollection<Artista> _artistas;
+        private List<Artista> _artistas = new List<Artista>();
         private int _nextId = 1;
 
-        public ArtistaService()
-        {
-            _artistas = new ObservableCollection<Artista>();
+        private static ArtistaService _instance;
+        public static ArtistaService Instance => _instance ??= new ArtistaService();
 
+        private ArtistaService()
+        {
             // Inicializamos algunos artistas de ejemplo
             Crear(new Artista
             {
@@ -29,7 +32,7 @@ namespace AtticaMAUI.Models
             });
         }
 
-        public ObservableCollection<Artista> ObtenerTodos()
+        public IEnumerable<Artista> ObtenerTodos()
         {
             return _artistas;
         }
@@ -67,4 +70,3 @@ namespace AtticaMAUI.Models
         }
     }
 }
-

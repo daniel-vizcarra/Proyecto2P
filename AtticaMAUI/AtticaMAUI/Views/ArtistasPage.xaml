@@ -1,4 +1,4 @@
-<?xm<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AtticaMAUI.Views.ArtistasPage"
@@ -9,7 +9,7 @@
                 Clicked="OnCrearNuevoArtistaClicked"
                 HorizontalOptions="Center"
                 Margin="10"/>
-        
+
         <Label Text="Artistas"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"
@@ -24,20 +24,13 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="10" Orientation="Horizontal">
-                            <Image Source="{Binding Imagen}"
-                                   WidthRequest="50"
-                                   HeightRequest="50"
-                                   Aspect="AspectFill"
-                                   VerticalOptions="Center"/>
-                            <StackLayout>
-                                <Label Text="{Binding Nombre}"
-                                       FontSize="Medium"
-                                       FontAttributes="Bold"/>
-                                <Label Text="{Binding Descripcion}"
-                                       FontSize="Small"
-                                       LineBreakMode="WordWrap"/>
-                            </StackLayout>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Nombre}"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Label Text="{Binding Descripcion}"
+                                   FontSize="Small"
+                                   LineBreakMode="WordWrap"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

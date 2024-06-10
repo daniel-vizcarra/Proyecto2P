@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Daniel\Desktop\Personalizacion Solucion\AtticaMAUI\AtticaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-10T04:46:06.220</Modified>
+      <Modified>2024-06-10T05:08:08.536</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Personalizacion Solucion\AtticaMAUI\AtticaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-10T04:46:06.139</Modified>
+      <Modified>2024-06-10T05:08:08.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Personalizacion Solucion\AtticaMAUI\AtticaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AtticaMAUI.runtimeconfig.json">
       <PackagePath>AtticaMAUI.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Personalizacion Solucion\AtticaMAUI\AtticaMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AtticaMAUI.dll">
       <PackagePath>AtticaMAUI.dll</PackagePath>
-      <Modified>2024-06-10T04:46:05.833</Modified>
+      <Modified>2024-06-10T05:08:07.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Personalizacion Solucion\AtticaMAUI\AtticaMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AtticaMAUI.exe</PackagePath>
-      <Modified>2024-06-10T04:46:05.849</Modified>
+      <Modified>2024-06-10T05:08:07.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Personalizacion Solucion\AtticaMAUI\AtticaMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
