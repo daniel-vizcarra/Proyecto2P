@@ -1,0 +1,26 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AtticaMAUI.Views.ObrasDeArtePage"
+             Title="ObrasDeArtePage">
+
+    <StackLayout>
+        <!-- Botón para crear una nueva obra -->
+        <Button Text="Crear Nueva Obra"
+                HorizontalOptions="Center"
+                Margin="10"/>
+
+        <!-- CollectionView para mostrar la lista de obras -->
+        <CollectionView x:Name="collectionView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Label Text="{Binding Titulo}" VerticalOptions="Center"/>
+                        <Button Text="Editar" Clicked="OnEditarClicked" CommandParameter="{Binding .}" Margin="5"/>
+                        <Button Text="Eliminar" Clicked="OnEliminarClicked" CommandParameter="{Binding .}" Margin="5"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
+</ContentPage>

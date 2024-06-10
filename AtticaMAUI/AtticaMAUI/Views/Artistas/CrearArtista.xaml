@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AtticaMAUI.Views.Artistas.CrearArtista"
+             Title="Crear Artista">
+
+    <StackLayout Padding="10">
+        <Entry x:Name="nombreEntry"
+               Placeholder="Nombre del artista"
+               Margin="10"/>
+
+        <Editor x:Name="descripcionEditor"
+                Placeholder="Descripción"
+                Margin="10"
+                AutoSize="TextChanges"/>
+
+        <Button Text="Seleccionar Imagen"
+                Clicked="OnSeleccionarImagenClicked"
+                Margin="10"/>
+
+        <Image x:Name="artistaImage"
+               WidthRequest="100"
+               HeightRequest="100"
+               Aspect="AspectFill"
+               Margin="10"/>
+
+        <Button Text="Guardar"
+                Clicked="OnGuardarClicked"
+                Margin="10"/>
+    </StackLayout>
+</ContentPage>

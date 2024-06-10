@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AtticaMAUI.Views.Obras.CrearObra"
+             Title="Crear Obra">
+
+    <StackLayout Padding="20">
+        <!-- Campos de entrada para los detalles de la obra -->
+        <Entry Placeholder="Título" x:Name="tituloEntry" Margin="0,0,0,10"/>
+        <Editor Placeholder="Descripción" x:Name="descripcionEditor" Margin="0,0,0,10"/>
+        <!-- Botón para guardar la nueva obra -->
+        <Button Text="Guardar Obra"
+                HorizontalOptions="FillAndExpand"
+                Margin="0,10,0,0"/>
+    </StackLayout>
+
+</ContentPage>

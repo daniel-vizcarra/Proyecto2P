@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AtticaMAUI
+build_property.ProjectDir = C:\Users\Daniel\Desktop\Personalizacion Solucion\AtticaMAUI\AtticaMAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/AdminMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.AdminMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdminMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdminMainPage.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/ArtistasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.ArtistasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ArtistasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ArtistasPage.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/Artistas/BorrarArtista.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.Artistas.BorrarArtista.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Artistas\BorrarArtista.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Artistas\BorrarArtista.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/Artistas/CrearArtista.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.Artistas.CrearArtista.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Artistas\CrearArtista.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Artistas\CrearArtista.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/Artistas/EditarArtista.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.Artistas.EditarArtista.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Artistas\EditarArtista.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Artistas\EditarArtista.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/CustomerMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.CustomerMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CustomerMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CustomerMainPage.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/ObrasDeArtePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.ObrasDeArtePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ObrasDeArtePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ObrasDeArtePage.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/Obras/BorrarObra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.Obras.BorrarObra.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Obras\BorrarObra.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Obras\BorrarObra.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/Obras/CrearObra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.Obras.CrearObra.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Obras\CrearObra.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Obras\CrearObra.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/Obras/EditarObra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.Obras.EditarObra.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Obras\EditarObra.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Obras\EditarObra.xaml
+
+[C:/Users/Daniel/Desktop/Personalizacion Solucion/AtticaMAUI/AtticaMAUI/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AtticaMAUI.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
